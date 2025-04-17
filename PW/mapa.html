@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização - Barbearia Elite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Barbearia Elite</h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="login.html">Login/Cadastro</a>
+                <a href="services.html">Serviços</a>
+                <a href="mapa.html" class="active">Localização</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Nossa Localização</h2>
+                
+                <div class="location-info">
+                    <h3>Endereço</h3>
+                    <p>SENAC Santo Amaro</p>
+                    <p>Rua das Barbearias, 123 - Santo Amaro</p>
+                    <p>São Paulo - SP, CEP: 04701-100</p>
+                    <a href="services.html" class="action-button">Agendar Horário</a>
+                </div>
+
+                <!-- Mapa -->
+                <div id="map"></div>
+
+                <div class="location-info directions-info">
+                    <h3>Como Chegar</h3>
+                    
+                    <div class="transport-option">
+                        <h4>🚇 Metrô</h4>
+                        <p>Estação Santo Amaro - Linha 5 Lilás</p>
+                        <p>10 minutos de caminhada</p>
+                    </div>
+
+                    <div class="transport-option">
+                        <h4>🚌 Ônibus</h4>
+                        <p>Diversas linhas param próximo ao local</p>
+                        <p>Ponto de ônibus a 100m do estabelecimento</p>
+                    </div>
+
+                    <div class="transport-option">
+                        <h4>🚗 Carro</h4>
+                        <p>Estacionamento próprio gratuito</p>
+                        <p>Fácil acesso pela Marginal Pinheiros</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>A Barbearia Elite é referência em cortes masculinos e cuidados com a barba, oferecendo um ambiente acolhedor e profissionais altamente qualificados.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sábado: 9h às 20h</p>
+                    <p>Domingo: 9h às 14h</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Telefone: (11) 99999-9999</p>
+                    <p>Email: contato@barbearia.com</p>
+                    <p>Endereço: Rua das Barbearias, 123</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <p>Instagram: @barbearia.elite</p>
+                    <p>Facebook: /barbeariaelite</p>
+                    <p>WhatsApp: (11) 99999-9999</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Barbearia Elite. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="script.js"></script>
+</body>
+</html>
