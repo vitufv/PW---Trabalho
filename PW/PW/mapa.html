@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização - Barbearia Elite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Barbearia Elite</h1>
+        <nav>
+          <a href="index.html">Início</a>
+          <a href="login.html">Login/Cadastro</a>
+          <a href="services.html">Serviços</a>
+          <a href="mapa.html" class="active">Localização</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="location-section">
+          <h2>Nossa Localização</h2>
+          
+          <div class="location-container">
+            <div class="location-info">
+              <div class="location-card">
+                <h3>Endereço</h3>
+                <p>Barbearia Elite</p>
+                <p>Av. Eng. Eusébio Stevaux, 823</p>
+                <p>Santo Amaro - São Paulo/SP</p>
+                <a href="services.html" class="action-button">Agendar Horário</a>
+              </div>
+            </div>
+
+            <div id="map"></div>
+          </div>
+
+          <div class="directions-container">
+            <h3>Como Chegar</h3>
+            
+            <div class="transport-options">
+              <div class="transport-option">
+                <div class="transport-details">
+                  <h4>Metrô</h4>
+                  <p>Estação Santo Amaro - Linha 5 Lilás</p>
+                  <p>15 minutos de caminhada</p>
+                </div>
+              </div>
+
+              <div class="transport-option">
+                <div class="transport-details">
+                  <h4>Ônibus</h4>
+                  <p>Diversas linhas param próximo ao local</p>
+                  <p>Ponto de ônibus a 50m do estabelecimento</p>
+                </div>
+              </div>
+
+              <div class="transport-option">
+                <div class="transport-details">
+                  <h4>Carro</h4>
+                  <p>Estacionamento próprio gratuito</p>
+                  <p>Fácil acesso pela Marginal Pinheiros</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Sobre Nós</h3>
+            <p>A Barbearia Elite é referência em cortes masculinos e cuidados com a barba, oferecendo um ambiente acolhedor e profissionais altamente qualificados.</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Horário de Funcionamento</h3>
+            <p>Segunda a Sábado: 9h às 20h</p>
+            <p>Domingo: 9h às 14h</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Telefone: (11) 99999-9999</p>
+            <p>Email: contato@barbearia.com</p>
+            <p>Endereço: Av. Eng. Eusébio Stevaux, 823</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link">Instagram</a>
+              <a href="#" class="footer-social-link">Facebook</a>
+              <a href="#" class="footer-social-link">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2024 Barbearia Elite. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
